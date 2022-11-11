@@ -25,7 +25,7 @@
 
 ### Macユーザ向け
 
-homebrewにて、`brew install postgresql@13` と入力し実行する  
+ターミナルにて、`brew install postgresql@13` と入力し実行する  
 
 ※もし、homebrewがうまくいかないときは、homebrew自体をなんとかするか、[PostgreSQLのダウンロード](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads)を開いてMac版のインストーラをダウンロードしてください。以降の手順はWindowsのほうを参考に進められると思います。（未検証）
 
