@@ -1,6 +1,6 @@
 # PostgreSQL 導入資料
 
-## PostgreSQLのインストール
+## PostgreSQL 13 のインストール
 
 ### Windowsユーザ向け
 
