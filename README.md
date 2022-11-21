@@ -27,7 +27,17 @@
 
 ターミナルにて、`brew install postgresql@13` と入力し実行する  
 
+インストールした際に以下のような指示があればこれに従う（パスを通す）
+```
+If you need to have postgresql@13 first in your PATH, run:
+  echo 'export PATH="「homebrewのインストール先」/postgresql@13/bin:$PATH"' >> ~/.zshrc
+```
+
+`「homebrewのインストール先」`は環境によって異なるかもしれません。`brew info postgresql@13`で確認できるはずです。
+
 ※もし、homebrewがうまくいかないときは、homebrew自体をなんとかするか、[PostgreSQLのダウンロード](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads)を開いてMac版のインストーラをダウンロードしてください。以降の手順はWindowsのほうを参考に進められると思います。（未検証）
+
+issue #1 のような情報もいただきました。こちらもご参考ください。
 
 ## インストールの確認
 
