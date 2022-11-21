@@ -25,9 +25,8 @@
 
 ### Macユーザ向け
 
-ターミナルにて、`brew install postgresql@13` と入力し実行する  
-
-インストールした際に以下のような指示があればこれに従う（パスを通す）
+1. ターミナルにて、`brew install postgresql@13` と入力し実行する  
+2. インストールした際に以下のような指示があればこれに従う（パスを通す）
 ```
 If you need to have postgresql@13 first in your PATH, run:
   echo 'export PATH="「homebrewのインストール先」/postgresql@13/bin:$PATH"' >> ~/.zshrc
