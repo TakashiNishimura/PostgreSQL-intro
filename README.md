@@ -35,7 +35,7 @@ If you need to have postgresql@13 first in your PATH, run:
 
 `「homebrewのインストール先」`は環境によって異なるかもしれません。`brew info postgresql@13`で確認できるはずです。
 
-※もし、homebrewがうまくいかないときは、homebrew自体をなんとか（Apple Siliconの人は[多分これ](https://shiro-changelife.com/error-cannot-install-in-homebrew/)）するか、[PostgreSQLのダウンロード](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads)を開いてMac版のインストーラをダウンロードしてください。以降の手順はWindowsのほうを参考に進められると思います。（未検証）
+※もし、homebrewがうまくいかないときは、homebrew自体をなんとかする（Apple Siliconの人は[多分これ](https://shiro-changelife.com/error-cannot-install-in-homebrew/)）か、[PostgreSQLのダウンロード](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads)を開いてMac版のインストーラをダウンロードしてください。以降の手順はWindowsのほうを参考に進められると思います。（未検証）
 
 issue [#1](https://github.com/TakashiNishimura/PostgreSQL-intro/issues/1) のような情報もいただきました。こちらもご参考ください。
 
