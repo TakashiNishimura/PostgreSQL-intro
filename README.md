@@ -40,6 +40,6 @@ issue [#1](https://github.com/TakashiNishimura/PostgreSQL-intro/issues/1) のよ
 
 ## インストールの確認
 
-コマンドプロンプト（ターミナル）にて、`psql --version`を実行してバージョンが表示されればインストール済み  
+コマンドプロンプト or ターミナル にて、`psql --version`を実行してバージョンが表示されればインストール済み  
 
 ※Windowsだと、パスを通したあとに新しく開いたコマンドプロンプトじゃないとコマンドたたけないです。
