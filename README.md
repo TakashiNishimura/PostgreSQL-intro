@@ -37,7 +37,7 @@ If you need to have postgresql@13 first in your PATH, run:
 
 ※もし、homebrewがうまくいかないときは、homebrew自体をなんとかするか、[PostgreSQLのダウンロード](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads)を開いてMac版のインストーラをダウンロードしてください。以降の手順はWindowsのほうを参考に進められると思います。（未検証）
 
-issue #1 のような情報もいただきました。こちらもご参考ください。
+issue [#1](https://github.com/TakashiNishimura/PostgreSQL-intro/issues/1) のような情報もいただきました。こちらもご参考ください。
 
 ## インストールの確認
 
