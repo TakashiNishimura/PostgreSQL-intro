@@ -1,7 +1,8 @@
 ## DBをH2からPostgreSQLに変更する
 
 ### このプロジェクトで使用する(postgresの)データベースを作成する。    
-コマンドプロンプト（ターミナル）にて次のコマンドを打つ※パスワードの入力を求められます  
+コマンドプロンプト（ターミナル）にて次のコマンドを打つ  
+※パスワードの入力を求められます  
 `createdb -U postgres wsbp_prac`
 
 ### IntelliJへの設定
@@ -16,8 +17,12 @@
 10. 接続のテスト を押して成功することを確認する
 11. OK を押してダイアログを閉じる
 
+![img1](./1.png)
+
 ### テーブルを作成する  
 **Postgresのクエリコンソールを開き、** [H2でのテーブル作成](https://github.com/gishi-yama/wicket_spring-boot_practice/blob/master/doc/C02/01.md#%E3%83%86%E3%83%BC%E3%83%96%E3%83%AB%E3%81%AE%E4%BD%9C%E6%88%90)と同様のテーブルを作成する。
+
+![img2](./2.png)
 
 pom.xmlの以下の部分を変更する
 ``` xml
