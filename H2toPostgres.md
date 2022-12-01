@@ -20,9 +20,11 @@
 ![img1](./1.png)
 
 ### テーブルを作成する  
-**Postgresのクエリコンソールを開き、** [H2でのテーブル作成](https://github.com/gishi-yama/wicket_spring-boot_practice/blob/master/doc/C02/01.md#%E3%83%86%E3%83%BC%E3%83%96%E3%83%AB%E3%81%AE%E4%BD%9C%E6%88%90)と同様のテーブルを作成する。
+**Postgresのクエリコンソールを開き、** [H2でのテーブル作成](https://github.com/gishi-yama/wicket_spring-boot_practice/blob/master/doc/C02/01.md#%E3%83%86%E3%83%BC%E3%83%96%E3%83%AB%E3%81%AE%E4%BD%9C%E6%88%90)と同様のテーブルを作成する。  
 
 ![img2](./2.png)
+
+※現在のデータベースに対するイントロスペクションが実施されていません。 と表示された場合は、データベースのイントロスペクションを実行してください。
 
 pom.xmlの以下の部分を変更する
 ``` xml
