@@ -57,3 +57,6 @@ spring.datasource.url=jdbc:postgresql://localhost:5432/wsbp_prac
 spring.datasource.username=postgres
 spring.datasource.password=postgres
 ```
+
+### 最後に
+アプリケーションを起動して、実際にユーザー登録ができれば成功です。
