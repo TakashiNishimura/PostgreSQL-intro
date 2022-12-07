@@ -3,7 +3,8 @@
 ### このプロジェクトで使用する(postgresの)データベースを作成する
 コマンドプロンプト（ターミナル）にて次のコマンドを打つ  
 ※パスワードの入力を求められます  
-`createdb -U postgres wsbp_prac`
+`createdb -U postgres wsbp_prac`  
+（Macの人はpostgresユーザがいないかも、初期ユーザはMac自体のログインユーザになっている？）
 
 ### IntelliJへの設定
 1. IntelliJの左側のメニューから データベース タブを開く
