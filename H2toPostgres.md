@@ -5,7 +5,7 @@
 ※パスワードの入力を求められます  
 `createdb -U postgres wsbp_prac`  
 
-（Macの人はpostgresユーザがいないかも、初期ユーザはMac自体のログインユーザになっている？）  
+（Macでbrewの人はpostgresユーザがいないかも、初期ユーザはMac自体のログインユーザになっている）  
 `createuser -s -P postgres` -> パスワードにも`postgres`を設定する  
 postgresユーザができたら、createdbできるはずです。
 
