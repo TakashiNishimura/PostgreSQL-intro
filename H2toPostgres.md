@@ -4,7 +4,10 @@
 コマンドプロンプト（ターミナル）にて次のコマンドを打つ  
 ※パスワードの入力を求められます  
 `createdb -U postgres wsbp_prac`  
-（Macの人はpostgresユーザがいないかも、初期ユーザはMac自体のログインユーザになっている？）
+
+（Macの人はpostgresユーザがいないかも、初期ユーザはMac自体のログインユーザになっている？）  
+`createuser -s -P postgres` -> パスワードにも`postgres`を設定する  
+postgresユーザができたら、createdbできるはずです。
 
 ### IntelliJへの設定
 1. IntelliJの左側のメニューから データベース タブを開く
