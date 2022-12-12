@@ -6,8 +6,11 @@
 `createdb -U postgres wsbp_prac`  
 
 （Macでbrewの人はpostgresユーザがいないかも、初期ユーザはMac自体のログインユーザになっている）  
+createdbできなければ、  
 `createuser -s -P postgres` -> パスワードにも`postgres`を設定する  
-postgresユーザができたら、createdbできるはずです。
+postgresユーザができたら、createdbできるはずです。  
+※Macでどうしてもうまくいかない場合は、Postgresのバージョンを14にしてみるとうまくいくという報告がありました。  
+バージョンを変えるときは、いったん13をアンインストールしてから14をインストールしましょう。
 
 ### IntelliJへの設定
 1. IntelliJの左側のメニューから データベース タブを開く
